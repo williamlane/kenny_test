@@ -6,6 +6,7 @@ include: "*.view"
 # include all the dashboards
 include: "*.dashboard"
 
+
 datagroup: Every_Day {
   sql_trigger: SELECT CURRENT_DATE() ;;
 }
