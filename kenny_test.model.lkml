@@ -7,7 +7,7 @@ include: "*.view"
 include: "*.dashboard"
 
 
-datagroup: Every_Day {
+datagroup: change_Day {
   sql_trigger: SELECT CURRENT_DATE() ;;
 }
 
